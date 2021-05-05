@@ -1,0 +1,67 @@
+:root {
+  --font-size-h2: 2rem;
+  --font-size-p: 1.8rem;
+  --font-size-span: 1.4rem;
+  --font-size-button: 1.4rem;
+  --background-color: #060406;
+  --border-color: #4F4F4F;
+  --primary-white: #e3e3e3;
+}
+
+a,
+body,
+div,
+ul,
+li,
+section,
+main,
+header,
+menu,
+nav,
+footer,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button,
+form,
+input,
+figure,
+image,
+picture,
+span {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  height: 100%;
+  color: #f2f2f2;
+  font-size: 62.5%;
+  font-family: 'Open Sans', sans-serif;
+  scroll-behavior: smooth;
+}
+
+picture {
+  height: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: inherit;
+  display: block;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--primary-white);
+}
+
